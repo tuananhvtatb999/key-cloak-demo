@@ -1,0 +1,9 @@
+server:
+  port: 8081
+
+keycloak:
+  realm: myReal
+  auth-server-url: http://localhost:8080/
+  resource: myRealm-client
+  public-client: true
+  bearer-only: true
